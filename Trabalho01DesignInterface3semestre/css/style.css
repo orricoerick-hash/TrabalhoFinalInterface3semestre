@@ -1,0 +1,200 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:Arial;
+background:#f4f4f4;
+}
+
+/* cabeçalho */
+
+header{
+background:#2603ec;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+/* menu */
+
+nav{
+background:#34495e;
+}
+
+nav ul{
+display:flex;
+justify-content:center;
+list-style:none;
+}
+
+nav li{
+margin:15px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+font-weight:bold;
+}
+
+/* main */
+
+/* Garante que a área de conteúdo central já comece com um espaço reservado */
+main {
+    display: block;
+    min-height: 500px; /* Dá uma altura padrão para a área das perguntas/cards */
+    padding: 20px 0;
+}
+
+main{
+max-width:900px;
+margin:auto;
+padding:20px;
+background:white;
+justify-content:center;
+/*text-align:center;*/
+}
+
+/* footer */
+
+footer{
+background:#2c3e50;
+color:white;
+text-align:center;
+padding:15px;
+margin-top:20px;
+}
+
+/* editor */
+
+.editor{
+display:flex;
+gap:30px;
+flex-wrap:wrap;
+}
+
+
+
+.formulario{
+flex:1;
+min-width:250px;
+}
+
+.cartao{
+flex:1;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+#imagemCartao{
+
+max-width:120px;
+margin-bottom:10px;
+
+}
+
+#textoCartao{
+
+font-size:24px;
+
+}
+
+/* cartão */
+
+#cartao{
+width:350px;
+height:550px;
+border-radius:10px;
+background:white;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+box-shadow:0 0 10px rgba(0,0,0,0.2);
+
+text-align:center;
+padding:20px;
+
+}
+
+/* responsivo */
+
+@media(max-width:700px){
+
+.editor{
+flex-direction:column;
+}
+
+}
+
+#emojiCartao{
+
+font-size:40px;
+margin-top:10px;
+
+}
+
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+header, footer {
+  background: #2603ec;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+nav{
+  background: #0e0d13;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  
+  color: white;
+  margin: 5px;
+}
+
+main {
+  padding: 20px;
+}
+
+/* responsivo */
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+my-header {
+    display: block;
+    min-height: 120px; /* Evita que o topo da página comece com tamanho zero */
+}
+my-nav {
+    display: block;
+    min-height: 50px;
+}
+
+/* Reserva o espaço do topo antes do JS carregar */
+my-header {
+    display: block;
+    min-height: 120px; /* Ajuste para a altura real do seu cabeçalho */
+    background-color: #0d6efd; /* Evita um flash em branco */
+}
+
+my-nav {
+    display: block;
+    min-height: 45px; /* Ajuste para a altura real do seu menu */
+}
+
+
+

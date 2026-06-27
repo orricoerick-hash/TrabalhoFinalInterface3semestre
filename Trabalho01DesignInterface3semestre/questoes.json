@@ -1,0 +1,17 @@
+[
+  {
+    "pergunta": "O que é JavaScript?",
+    "alternativas": ["Linguagem de programação", "Banco de dados", "Sistema operacional"],
+    "correta": 0
+  },
+  {
+    "pergunta": "O que é HTML?",
+    "alternativas": ["Linguagem de marcação", "Framework", "Banco de dados"],
+    "correta": 0
+  },
+  {
+    "pergunta": "O que é DOM?",
+    "alternativas": ["Modelo de documento", "API de banco", "Sistema"],
+    "correta": 0
+  }
+]
